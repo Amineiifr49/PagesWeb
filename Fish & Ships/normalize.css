@@ -1,0 +1,269 @@
+@font-face {
+    font-family: "Open_Sans",;
+    font-family: "Slabo_27px";
+    src: url("font/Open_Sans/OpenSans-Light.ttf");
+    src: url("font/Slabo_27px/Slabo27px-Regular.ttf");
+}
+/*body*/
+
+body{
+   
+    background-image: url("img/fond.png");
+    width: 1100px;
+    margin: auto;
+    
+}
+
+
+
+
+/*header*/
+header{
+    border-top: 3px solid rgb(42,154,159);
+    border-bottom: 3px solid rgb(42,154,159);
+    background-color: rgb(52, 177, 179);
+    margin-right: -190px;
+    margin-left: -190px;
+    margin-top: 60px;
+    display: block;
+}
+header h1{
+    text-align: center;
+}
+header  img{
+    
+ 
+    margin-left: 520px;
+    margin-bottom:-15px ;
+}
+.main{
+    width: 880px;
+    height: 100px;
+    margin: auto;
+}
+header li{
+    
+   color: white;
+    margin-right: 30px;
+    display: inline-block;
+    
+}
+header ul{
+    text-align: center;
+}
+/*les paragraphe et les titres*/
+h2{
+    text-align: center;
+}
+.text{
+    
+    margin:80px 30px ;
+}
+.text p{
+    text-align: center;
+}
+.left p {
+   
+    text-align: left;
+}
+.right p{
+    text-align: left;
+    margin-right: 13px;
+}
+section h1{
+    text-align: center;
+}
+section img{
+    border-radius: 50%;
+    float: left;
+}
+section .left {
+    text-align: center;
+  
+    width: 250px;
+    float: left;
+
+}
+section{
+    background-color: rgb(182,222,221);
+    float: left;
+    margin-left: 0px;
+    width: 550px;
+}
+
+section img{
+    border-radius: 50%;
+    float: left;
+}
+section .right{
+    text-align: center;
+    
+    width: 250px;
+    float: right;
+
+}
+aside{
+    border: 4px solid rgb(42,154,159);
+
+    background-color: rgba(52, 177, 179);
+    padding-bottom: 80px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.test{
+    margin-top: 70px;
+}
+aside h5,p{
+    padding-left: 20px;
+    
+}
+aside h4{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+aside .vignette{
+    
+   float: right;
+   margin-top: -50px;
+   margin-right: -60px;
+   height: 120px;
+}
+aside h5 img{
+    width: 13px;
+    float: left;
+    border: 1px solid red;
+    margin-top:4px;
+}
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 10px;
+   
+    height: 40px;
+}
+footer p{
+    color: grey;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer{
+    margin-top:100px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+aside .icon1{
+    width: 13px;
+    float: left;
+    padding-right: 7px;
+    margin-top:4px; 
+    margin-left:15px ; 
+}
+aside .icon2{
+    width: 13px;
+    float: left;
+    margin-top:8px; 
+    margin-left:15px ; 
+    padding-right: 7px;
+}
+aside .icon3{
+    width: 13px;
+    float: left;
+    margin-top:8px; 
+    margin-left:15px ;
+    padding-right: 7px; 
+}
+aside .icon4{
+    width: 13px;
+    float: left;
+    margin-top:8px;  
+    margin-left:15px ; 
+    padding-right: 7px;
+}
+aside h4 .News{
+    font-family: "Slabo_27px";
+    color: grey;
+    text-align: justify;
+}
+p{
+    font-family: "Open_Sans";
+}
+section .left img{
+    margin-left: 15px;
+}
+section .right img{
+    margin-left: 15px;
+}
+section .right button{
+    padding:5px 6px;
+    background-color: rgb(52, 177, 179);
+    float: right;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    border: none;
+}
+section .left button{
+    padding:5px 6px;
+    background-color: rgb(52, 177, 179);
+    float: right;
+    margin-bottom: 27px;
+    border: none;
+}
+section .left button img{
+    float: right;
+    position: relative;
+    right: 7px;
+    top: 2px;
+}
+section .right button img{
+    float: right;
+    position: relative;
+    right: 7px;
+    top: 2px;
+}
+.text h2{
+    font-family: "Slabo_27px";
+}
+section h1{
+    font-family: "Slabo_27px";
+}
+
+h4{
+    font-family: "Slabo_27px";
+    font-size: x-large; 
+   
+}
+span{
+margin-right: 3px;;
+}
+.today{
+    color: rgb(94,173,174);
+}
+h5{
+    color: grey;
+}
+ .icondp1{
+    width: 15px;
+    float: right;
+   
+    margin-right: 20px;
+    position: relative;
+    right: 33px;
+    top: 3px;
+    
+}
+ .icondp2{
+    width: 15px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+aside p{
+    color: white;
+}

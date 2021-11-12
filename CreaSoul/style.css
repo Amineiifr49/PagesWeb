@@ -1,0 +1,165 @@
+body{
+    background-color: #F0EFF2;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+header img{
+    width: 30%;
+    margin: auto;
+}
+header ul{
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+   
+}
+header li{
+    padding: 10px;
+    list-style-type: none;
+    
+}
+.green {
+    background-color:#30a793 ;
+    
+}
+h2{
+    margin-top: 30px;
+    border-bottom: 1px SOLID #30a793;
+    padding-bottom: 10px;
+    color: #30a793;
+}
+h1 .titre{
+    padding-bottom: 30px;
+    
+}
+img{
+   width: 100%;
+}
+p{
+    color: grey;
+    padding-bottom: 10px;
+}
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-top: 10px;
+   
+    width: 5%;
+}
+footer p{
+    color: grey;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 11PX;
+    
+}
+footer{
+     margin-top:20PX; 
+    /* width: 900px; */
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 10PX;
+    
+}
+SPAN{
+    MARGIN-TOP:10PX;
+}
+aside{
+    display: none;
+}
+.tablette{
+    display: none;
+}
+.desktop{
+    display: none;
+}
+
+@media screen and (min-width: 768px)  {
+    aside{
+        display: block;
+        background-color: #B7DBB0;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablette{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    aside{
+        float: right;
+        display: block;
+        background-color: #B7DBB0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -884px;
+        height: auto; 
+        padding: 20px;
+        width: 30%;
+
+    }
+    .main{
+        margin-right: 40%;
+        float: left;
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    .tablette{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display:block;
+    }
+    li{
+        display: inline-block;
+        margin-right:150px;
+        color: white;
+    }
+    .green{
+        height: 80px;
+        
+    }
+    header  .green ul{
+        
+        font-size: larger;
+        padding-bottom: 20px;
+        
+        
+        
+    }
+    header .green ul li{
+        padding-top: 30px;
+        padding-right: 0px;
+        display:inline-block;
+        
+        position: relative;
+    left: 50px;
+        
+    }
+    header .green {
+        margin: auto;
+        
+    }
+    section{
+        width: 75%;
+    }
+    aside{
+        width: 30%;
+    }
+    footer{
+        margin-top: 100px;
+    }
+    
+}
